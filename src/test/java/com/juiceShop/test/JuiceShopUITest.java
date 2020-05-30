@@ -18,7 +18,6 @@ public class JuiceShopUITest {
 	public void  registerUserTest(){
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
-		
 		driver.manage().window().maximize();
 		driver.get("http://192.168.99.100:3000/#/register");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

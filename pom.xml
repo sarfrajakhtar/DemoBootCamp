@@ -20,6 +20,12 @@
                 </configuration>
             </plugin>
         </plugins>
+      <testResources>
+            <testResource>
+                <directory>src/test/java</directory>
+            </testResource>
+        </testResources>
+      
     </build>
   
   <dependencies>
